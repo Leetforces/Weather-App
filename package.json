@@ -4,8 +4,8 @@
   "description": "Web-server for weather App",
   "main": "index.js",
   "scripts": {
-    "start": "node source/app.js",
-    "test": "nodemon source/app.js -e hbs,js"
+    "start": "node source/app.js"
+   
   },
   "author": "Manish Kumar",
   "license": "ISC",

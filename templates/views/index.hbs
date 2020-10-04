@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="icon" href="/img/weather.png" id="change">
+</head>
+
+<body>
+    {{!-- injecting header from partials --}}
+    <div class="main-content">
+
+        {{>header}}
+        <form id='form'>
+            <input id="input" type="text" placeholder="Enter the Address" class="inputValue">
+            <button id="btn" value="Submit">Submit</button>
+        </form>
+        <br>
+        <div id="openweathermap-widget">
+
+        </div>
+    </div>
+
+
+    {{!-- injecting footer from patials --}}
+    {{>footer}}
+
+    <script src="//openweathermap.org/themes/openweathermap/assets/vendor/owm/js/d3.min.js"></script>
+      {{!-- find from the public directory ../../public/js/index.js --}}
+    <script src="/js/index.js"></script>
+</body>
+
+</html>

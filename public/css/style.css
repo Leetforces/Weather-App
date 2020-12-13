@@ -6,7 +6,7 @@
   transition: all 0.3s ease-in;
 }
  body {
-    background-color: RGB(223, 207, 190);
+  background-color: RGB(223, 207, 190);
   color: black;
   opacity: 0.8;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -16,25 +16,25 @@
 
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  height: 100vh;
   }
   
-  .main-content {
-    flex-grow: 1;
-  }
-  
-  footer {
-    color: #888888;
-    border-top: 1px solid #f7d8d8;
-    margin-top: 16px;
-    padding: 16px 0;
-    
-  }
   
   header {
     margin-top: 16px;
     margin-bottom: 48px;
   }
+  footer {
+    color: #888888;
+    border-top: 1px solid #f7d8d8;
+    
+    padding: 16px 0;
+    margin-top:auto;
+   
+    
+  }
+  
+  
   
   h1 {
     font-size: 48px;

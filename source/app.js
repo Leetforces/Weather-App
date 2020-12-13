@@ -53,17 +53,10 @@ app.get('/about',(req,res)=>{
         title: "About",
     });
 });
-app.get('/help',(req,res)=>{
-    res.render('help',{
-        message: "This Website is under development Phase. Page Not Found.",
-        title: "Help",
-        name:"Manish Kumar", 
 
-    })
-});
-app.get("/help/*", (req, res) => {
-    res.render("help", {
-      title: "404",
+app.get("/help", (req, res) => {
+    res.render('help', {
+      title: "Help",
       message: "Help article not found.",
       name: "Manish Kumar",
     });

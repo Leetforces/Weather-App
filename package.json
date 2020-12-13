@@ -5,7 +5,6 @@
   "main": "index.js",
   "scripts": {
     "start": "node source/app.js"
-   
   },
   "author": "Manish Kumar",
   "license": "ISC",
@@ -13,6 +12,15 @@
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "hbs": "^4.1.1",
+    "nodemon": "^2.0.6",
     "request": "^2.88.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ManiCodeBits/Weather-App.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ManiCodeBits/Weather-App/issues"
+  },
+  "homepage": "https://github.com/ManiCodeBits/Weather-App#readme"
 }
